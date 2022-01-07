@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS FONTES */
+
+/* --- FONTE OpenSans_Regular --- */
+@font-face {
+	font-family: 'OpenSans_Regular';
+	src: url('../fontes/OpenSans_Regular.eot');
+	src: local('?'), url('../fontes/OpenSans_Regular.woff') format('woff'), url('../fontes/OpenSans_Regular.ttf') format('truetype'), url('../fontes/OpenSans_Regular.svg#OpenSans_Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* --- FONTE bernadette_rough --- */
+@font-face {
+	font-family: 'PerspectiveSansBlack';
+	src: url('../fontes/PerspectiveSansBlack.eot');
+	src: local('?'), url('../fontes/PerspectiveSansBlack.woff') format('woff'), url('../fontes/PerspectiveSansBlack.ttf') format('truetype'), url('../fontes/PerspectiveSansBlack.svg#OpenSans_Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* --- FONTE plantc --- */
+@font-face {
+	font-family: 'plantc';
+	src: url('../fontes/plantc.eot');
+	src: local('?'), url('../fontes/plantc.woff') format('woff'), url('../fontes/plantc.ttf') format('truetype'), url('../fontes/plantc.svg#OpenSans_Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

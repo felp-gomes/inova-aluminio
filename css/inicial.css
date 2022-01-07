@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS INICIAL */
+
+/*
+  menu formatting
+*/
+
+.section-main {
+  background-color: #fff;
+}
+
+.section-main .introducao {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section-main .introducao > img {
+  max-width: 100%;
+  margin-top: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.section-main .text {
+  padding-bottom: 100px;
+  max-width: 490px;
+}
+
+.section-main .introducao .text > p:nth-child(1) {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-main .introducao .text > p:nth-child(2) {
+  margin: 16px 0;
+  font-size: 25px;
+  font-weight: 600;
+  color: #4f4c4c;
+}
+
+.section-main button a {
+  background-color: #9a9b9d;
+  border-radius: 15px;
+  padding: 20px 40px;
+  align-items: center;
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.section-main button a:hover {
+  background: #4f4c4c;
+}
+
+.section-main button a > img {
+  margin-right: 10px;
+}
+
+.section-main button a p {
+  font-weight: 600;
+}
+
+/*
+  Formattin section diferenciais
+*/
+.section-diferenciais {
+  margin-top: -100px;
+}
+
+.section-diferenciais .section-card {
+  width: 260px;
+  background-color: #fcc129;
+  padding: 50px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.section-diferenciais .section-card img {
+  margin-bottom: 10px;
+}
+
+/*
+  Formattin section destaques
+*/
+
+.section-destaques .block-destaque > div {
+  width: 250px;
+  margin-top: 20px;
+}
+
+.section-destaques .background-img {
+  width: 249px;
+  height: 271px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-destaques .block-destaque div h4,
+.block-destaque div p {
+  margin-top: 15px;
+  max-width: 190px;
+}
+
+.section-destaques .block-destaque div p {
+  margin-top: 15px;
+}
+
+.section-destaques .button-more {
+  margin-top: 25px;
+}
+/*
+  Formattin section produtos
+*/
+
+.section-produtos div {
+  margin-top: 100px;
+  align-items: flex-end;
+}
+
+.section-produtos div img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.section-produtos header {
+  margin-top: 0;
+}
+
+.section-produtos header h2 {
+  text-align: left;
+}
+
+.section-produtos header p {
+  text-align: justify;
+  margin: 25px 0;
+}
+
+.section-produtos .button-more {
+  margin: 0;
+}
+
+/*
+  Formattin section catálogo
+*/
+
+.section-catalogo .block-catalogo {
+  margin-top: 100px;
+}
+
+.section-catalogo header {
+  margin: 0;
+}
+
+.section-catalogo header h2 {
+  text-align: left;
+}
+
+.section-catalogo header p {
+  margin: 25px 0;
+  text-align: justify;
+}
+
+.section-catalogo .button-catalogo {
+  margin: 0 auto;
+}
+
+.section-catalogo .button-catalogo a {
+  background-color: #000;
+  border-radius: 10px;
+  color: #fff;
+  padding: 25px 50px;
+  align-items: center;
+  width: 400px;
+  justify-content: space-evenly;
+  transition: background 0.3s;
+}
+
+.section-catalogo .button-catalogo a p {
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.section-catalogo .block-catalogo img:nth-child(2) {
+  max-width: 100%;
+}
+
+.section-catalogo .block-catalogo-insta {
+  margin-top: 100px;
+}
+
+
+.section-catalogo .block-catalogo-insta div {
+  justify-content: center;
+  align-items: center;
+}
+
+.section-catalogo .block-catalogo-insta div img {
+  margin-right: 10px;
+}
+
+.section-catalogo .block-catalogo-insta a {
+  position: relative;
+  top: 90px;
+  z-index: 1;
+  text-align: center;
+}
+
+.section-catalogo .block-catalogo-insta a img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
