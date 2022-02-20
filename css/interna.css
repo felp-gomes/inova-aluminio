@@ -4,3 +4,218 @@
 /* -------------------------- GERAL ---------------------------- */
 
 /* [BEGIN] ESTILIZAÇÃO HEADER */
+
+.button-more {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.button-more a {
+	padding: 20px 100px;
+}
+h2 {
+	position: relative;
+	margin-right: auto;
+	margin-left: 0;
+	display: table;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+}
+h2:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 40px;
+	height: 3px;
+	background-color: #edc03d;
+}
+p {
+	font-size: 20px;
+}
+h3 {
+	font-size: 28px;
+	font-weight: 700;
+	max-width: 100%;
+	text-align: left;
+}
+.container {
+	background-color: #fff;
+}
+
+/*SOBRE*/
+
+.interna_sobre .fl-left {
+	max-width: 700px;
+	margin-top: 80px;
+}
+.interna_sobre h2 {
+	
+}
+.interna_sobre p {
+	
+}
+.interna_sobre .img_sobre {
+	margin-top: 80px;
+}
+.interna_sobre .flex_sobre {
+
+}
+.interna_sobre .flex_sobre .block {
+	margin-top: 20px;
+	width: 30%;
+}
+.interna_sobre .flex_sobre .block h3 {
+
+}
+.interna_sobre .flex_sobre .block p {
+	margin-top: 20px;
+}
+
+/*PRODUTOS*/
+
+.interna_produtos h2 {
+	margin-top: 60px;
+	margin-bottom: 0;
+}
+.interna_produtos h3 {
+	margin-top: 40px;
+}
+.interna_produtos p {
+	margin-top: 10px;
+}
+.interna_produtos ul {
+	margin-top: 30px;
+}
+.interna_produtos li {
+	font: 25px 'MyriadPro_Regular';
+	letter-spacing: -0.10px;
+	color: #999999;
+	padding-left: 20px;
+	position: relative;
+	width: 334px;
+}
+.interna_produtos li:before {
+	position: absolute;
+	content: '';
+	top: calc(26px - 50%);
+	left: 0;
+	border-radius: 100%;
+	background-color: #eda73d;
+	width: 10px;
+	height: 10px;
+}
+
+/*DESTAQUES*/
+
+.interna_destaques h2 {
+	margin-top: 60px;
+}
+.interna_destaques .block-destaque > a {
+  width: 250px;
+  margin-top: 40px;
+}
+
+.interna_destaques .background-img {
+  width: 249px;
+  height: 271px;
+  background-position: center;
+  background-repeat: no-repeat;
+      background-size: cover;
+    border-radius: 20px;
+}
+
+.interna_destaques .block-destaque a h4,
+.interna_destaques .block-destaque a p {
+	margin: auto;
+  margin-top: 15px;
+  max-width: 220px;
+}
+
+.interna_destaques .block-destaque a p {
+  margin-top: 15px;
+}
+
+/*INFORMAÇÕES*/
+
+.interna_informacao h2 {
+	margin-top: 60px;
+}
+.interna_informacao .img_info {
+	margin-right: 30px;
+	width: 450px;
+	height: 350px;
+	border-radius: 15px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*CONTATO*/
+
+.interna_contato h2 {
+	margin-top: 60px;
+}
+
+
+/*-------- FORMULÁRIO --------*/
+
+.form .fl-left, .form .fl-right {
+    width: 45%;
+}
+.fl-left.formulario {
+    width: 45%;
+}
+.form input, .form textarea {
+    font: 12px "OpenSans-Semibold";
+    line-height: 1;
+    display: block;
+    outline: none;
+    margin: 10px auto 0;
+    padding-left: 20px;
+    background: transparent;
+    border: 1.5px solid #cccccc;
+    border-radius: 10px;
+    height: 60px;
+    box-sizing: border-box;
+    color: #838c93;
+    width: 100%;
+}
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #838c93;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+    color: #838c93;
+}
+.form textarea {
+    overflow-y: hidden;
+    padding-top: 22px;
+    padding-bottom: 100px;
+}
+textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #838c93;
+}
+textarea::-moz-placeholder { /* Firefox 19+ */
+    color: #838c93;
+}
+.form .btn_enviar{
+    background: #eda73d;
+    border: none;
+    border-radius: 13px;
+    font-size: 12px;
+    font-family: "OpenSans-Bold";
+    margin: 20px auto 0;
+    margin-left: 0;
+    cursor: pointer;
+    color: #fff;
+    padding: 13px 0;
+    height: auto;
+    width: 120px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    text-align: center;
+}
+.form .btn_enviar:hover {
+    background: #99999b;
+}

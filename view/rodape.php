@@ -24,7 +24,7 @@
           </p>
           <div class="flex">
             <p>
-              Fortaleza CE | <a href="">Localizar no mapa</a> 
+              Fortaleza CE | <a href="https://goo.gl/maps/1PjbVPJismBN9ix19">Localizar no mapa</a> 
             </p>
             <img src="./imagens/home/icon_endereco.png" alt="Ícone de localicação" title="Ícone de localicação">
           </div>

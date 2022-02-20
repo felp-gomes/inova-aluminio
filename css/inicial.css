@@ -23,17 +23,17 @@
 
 .section-main .text {
   padding-bottom: 100px;
-  max-width: 490px;
+  max-width: 460px;
 }
 
 .section-main .introducao .text > p:nth-child(1) {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
 }
 
 .section-main .introducao .text > p:nth-child(2) {
   margin: 16px 0;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
   color: #4f4c4c;
 }
@@ -86,7 +86,7 @@
   Formattin section destaques
 */
 
-.section-destaques .block-destaque > div {
+.section-destaques .block-destaque > a {
   width: 250px;
   margin-top: 20px;
 }
@@ -96,15 +96,18 @@
   height: 271px;
   background-position: center;
   background-repeat: no-repeat;
+      background-size: cover;
+    border-radius: 20px;
 }
 
-.section-destaques .block-destaque div h4,
-.block-destaque div p {
+.section-destaques .block-destaque a h4,
+.block-destaque a p {
+  margin: auto;
   margin-top: 15px;
-  max-width: 190px;
+  max-width: 220px;
 }
 
-.section-destaques .block-destaque div p {
+.section-destaques .block-destaque a p {
   margin-top: 15px;
 }
 
@@ -121,7 +124,7 @@
 }
 
 .section-produtos div img {
-  max-width: 100%;
+  max-width: 56%;
   border-radius: 15px;
 }
 
@@ -185,7 +188,7 @@
 }
 
 .section-catalogo .block-catalogo img:nth-child(2) {
-  max-width: 100%;
+  max-width: 55%;
 }
 
 .section-catalogo .block-catalogo-insta {

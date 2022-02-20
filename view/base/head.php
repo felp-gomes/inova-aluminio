@@ -7,7 +7,7 @@
 
         <title><?php print $titulo; ?></title>
 
-        <link rel="icon" type="image/ico" href="favicon.png" />
+        <link rel="icon" type="image/ico" href="imagens/home/favicon.jpg" />
 
         <?php
 //CSS

@@ -70,9 +70,39 @@
   .section-catalogo .block-catalogo-insta a {
     top: 80px;
   }
+  .interna_sobre .img_sobre, .interna_sobre .fl-left {
+    float: none;
+  }
+  .interna_contato .fl-left.formulario, .interna_contato .fl-right {
+    float: none;
+    margin: auto;
+    width: 100%;
+  }
+  .interna_contato .fl-right iframe {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
 }
 
+
 @media screen and (max-width: 966px) {
+  .interna_sobre .flex_sobre {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .submenu {
+    display: block !important;
+    position: relative !important;
+    top: 0;
+  }
+
+  .main_navigator li.menu_ativo a, .main_navigator li a:hover {
+    border-bottom: none;
+  }
+
+
   .navegation {
     margin-bottom: 50px;
   }
@@ -137,11 +167,22 @@
   }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 900px) {
+  .interna_informacao .img_info {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .interna_informacao p {
+    margin-top: 40px;
+  }
 }
 
-@media screen and (max-width: 820px) {
-
+@media screen and (max-width: 840px) {
+  .interna_destaques .block-destaque > a {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 760px) {
@@ -186,18 +227,23 @@
   .section-catalogo .block-catalogo-insta a {
     top: 45px;
   }
+  .section-main .introducao .text > p:nth-child(1) {
+    text-align: left;
+  }
 }
 
-@media screen and (max-width: 600px) {
-}
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
   .principal .block-address {
     flex-direction: column;
   }
 
   .principal .block-address address:first-child{
     margin-bottom: 25px;
+  }
+
+  .interna_contato .fl-right iframe {
+    width: 100%;
   }
 }
 
