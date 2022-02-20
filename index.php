@@ -8,6 +8,7 @@ $css = array("base", "inicial", "rwd", "animate");    // CSS
 $js = array("jquery", "scripts-base", "wow.min");
 
 include_once('view/base/head.php'); // Estrutura Head
+
 ?>
 </head>
 <body>
@@ -100,33 +101,48 @@ include_once('view/base/head.php'); // Estrutura Head
 				</header>
 			
 				<div class="block-destaque flex">
-					<div>
+
+					<a href="">
 						<div style="background-image: url(./imagens/home/destaque1.png)" class="background-img">
 						</div>
-						<h4>3 vantagens do perfil de alumínio para vidro.</h4>
-						<p>Longa durabilidade: Um dos principais benefícios é a longa durabilidade do alumínio. Variedade de opções: É possível personalizar detalhes no acabamento. Valoriza o imóvel: Por ser um produto de alta qualidade, longa durabilidade e baixo custo de manutenção.</p>
-					</div>
+						<h4>Como escolher corretamente seu Perfil de Alumínio?</h4>
+						<p>A escolha de um fornecedor de qualidade é fundamental. Focar somente no preço não é a melhor decisão para o seu projeto. Pesquise bem e prefira distribuidores que utilizem matéria-prima e ligas de boa performance, aliando o melhor custo benefício ao perfil de alumínio que você necessita.</p>
+					</a>
 
-					<div>
+					<a href="">
 						<div style="background-image: url(./imagens/home/destaque2.png)" class="background-img">
 						</div>
-						<h4>Como escolher corretamente seu perfil de alumínio?</h4>
-						<p>A escolha de um fornecedor de qualidade é fundamental. Focar somente no preço não é a melhor decisão para o seu projeto. Pesquise bem e prefira distribuidores que utilizem matéria-prima e ligas de boa performance, aliando o melhor custo benefício ao perfil de alumínio que você necessita.</p>
-					</div>
+						<h4>Chapas e Bobinas de Alumínio</h4>
+						<p>Tanto a chapa como a bobina de alumínio são materiais com uma ampla aplicação. E a razão é simples: trata-se de uma matéria-prima com características ricas para os mais diversos setores.                                                                                                                      
+A bobina de alumínio é muito requisitada para a fabricação de embalagens – como latas, por exemplo. A vantagem é que as bobinas conseguem ser incorporadas em equipamentos industriais que fazem a moldagem personalizada do material.
+Já a chapa de alumínio é requisitada para construções mais pesadas. Na fabricação de produtos de transporte, aeroespacial e militar.
+</p>
+					</a>
 
-					<div>
+					<a href="">
 						<div style="background-image: url(./imagens/home/destaque3.png)" class="background-img">
 						</div>
-						<h4>A importância de conferir as medidas.</h4>
-						<p>Nunca é demais conferir as medidas e cores do seu perfil de alumínio para que esteja como projetado. Cada milímetro no comprimento ou na largura do perfil para porta de vidro &#40;por exemplo&#41; faz toda a diferença. Verifique também a espessura mais adequada da peça em função do uso que pretende dar a ela e do peso do vidro.</p>
-					</div>
+						<h4>As cores do Alumínio Harmonizam Com o Ambiente?</h4>
+						<p>A escolha nas cores dos perfis de alumínio, devem harmonizar com o ambiente. Ao optar pelas cores dos perfis, os tons não podem destoar dos móveis ou paredes do ambiente da sua casa, a fim de não comprometer a beleza do projeto. Na dúvida fique com as cores neutras que encaixam em quase todos os ambientes.</p>
+					</a>
 
-					<div>
+					<a href="">
 						<div style="background-image: url(./imagens/home/destaque4.png)" class="background-img">
 						</div>
-						<h4>As cores escolhidas harmonizam com o ambiente?</h4>
-						<p>A escolha nas cores dos perfis de alumínio, devem harmonizar com o ambiente. Ao optar pelas cores dos perfis, os tons não podem destoar dos móveis ou paredes do ambiente da sua casa, a fim de não comprometer a beleza do projeto. Na dúvida fique com as cores neutras que encaixam em quase todos os ambientes.</p>
-					</div>
+						<h4>As Dez Ferramentas Essenciais Para o Serralheiro (foto)</h4>
+						<p>1-	Serra Meia Esquadria;<br>
+							2-	Jogo de Brocas de Vídea e Aço Rápido;<br>
+							3-	Furadeira de Impacto;<br>
+							4-	Jogo de Chaves de Fenda;<br>
+							5-	Alicates : Universal, Pressão e Bico;<br>
+							6-	Martelo de Ferro e de Borracha;<br>
+							7-	Jogo de Chave Allen;<br>
+							8-	Trena e Esquadro;<br>
+							9-	Estilete;<br>
+							10-	Calculadora.
+						</p>
+					</a>
+
 				</div>
 				<button class="button-more">
 					<a href="">Ver todos</a>
@@ -139,7 +155,7 @@ include_once('view/base/head.php'); // Estrutura Head
 				<img src="./imagens/home/img_produto.jpg" alt="" title="">
 				<header>
 					<h2>Produtos</h2>
-					<p>Na Inova Alumínio, você encontra as melhores soluções de perfis de alumínio do mercado, visando o compromisso de oferecer produtos com matéria prima de procedência, garantindo o mais alto padrão de qualidade, eficiência &#91;...&#93;</p>
+					<p>Na Inova Alumínio, você encontra as melhores soluções de perfis de alumínio do mercado, visando o compromisso de oferecer produtos com matéria prima de procedência, garantindo o mais alto padrão de qualidade, eficiência [...]</p>
 					<button class="button-more">
 						<a href="">Ver mais</a>
 					</button>
